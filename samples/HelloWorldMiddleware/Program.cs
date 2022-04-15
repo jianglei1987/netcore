@@ -1,4 +1,5 @@
-﻿Func<RequestDelegate, RequestDelegate> Middleware3 = (RequestDelegate next)=>
+﻿//简单的中间件定义
+Func<RequestDelegate, RequestDelegate> Middleware3 = (RequestDelegate next)=>
 {
     return next;
 };
